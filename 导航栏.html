@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+       .list li{
+        list-style: none;
+       }
+       .list>li{
+        background-color: aqua;
+        width: 100px;
+       }
+       .list li ul{
+        display: none;
+       }
+       .list li:hover ul{
+        display: block;
+       }
+.list li ul>li:hover{
+    text-indent: 1px;
+}
+.list li ul>li{
+    background-color: aqua;
+   width: 100px;
+   margin-left: 40px;
+}
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <li>一级导航栏
+            <ul>
+                <li>23</li>
+                <li>32</li>
+                <li>3232</li>
+            </ul>
+        </li>
+        
+    </ul>
+</body>
+</html>

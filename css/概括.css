@@ -1,0 +1,223 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 语言样式 */
+.Language{
+    width: 100%;
+    height: 37px;
+    background-color: #111111;
+}
+/* 导航部分 */
+.nav{
+    width: 100%;
+    height: 65px;
+    background-color: #002B49;
+}
+/* ul整体浮动 */
+ .Language>ul{
+    float: right;
+    margin-right: 210px;
+ }
+ /* 语言部分 左侧 加背景图片 */
+ .Language>ul>li{
+  width: 90px;
+  height: 20px;
+ /* background-color: darkmagenta; */
+ float: left;
+ margin-left: 8px;
+ list-style: none;
+ }
+ .Language>ul>li:nth-of-type(1){
+  background: url(./../img/lag.png)no-repeat -1px -4px;
+  margin-top: 4px;
+ }
+ .Language>ul>li:nth-of-type(1):hover{
+    background: url(./../img/lag.png) no-repeat -80px -4px;
+ }
+ .Language>ul>li:nth-of-type(2){
+    background: url(./../img/lag.png)no-repeat -1px -38px;
+    margin-top: 4px;
+   }
+   .Language>ul>li:nth-of-type(2):hover{
+    background: url(./../img/lag.png) no-repeat -80px -38px;
+ }
+ .Language>ul>li:nth-of-type(3){
+    background: url(./../img/lag.png)no-repeat -1px -72px;
+    margin-top: 4px;
+   }
+   .Language>ul>li:nth-of-type(3):hover{
+    background: url(./../img/lag.png) no-repeat -80px -72px;
+ }
+ .Language>ul>li:nth-of-type(4){
+    background: url(./../img/lag.png)no-repeat -1px -106px;
+    margin-top: 4px;
+   }
+   .Language>ul>li:nth-of-type(4):hover{
+    background: url(./../img/lag.png)no-repeat -80px -106px;
+    margin-top: 4px;
+   }
+   .Language>ul>li:nth-of-type(5){
+    height: 30px;
+    background-color: #008ACE;
+    margin-top: 4PX ;
+    line-height: 30px;
+    font-size: 13px;
+   padding:0 4px ;
+   }
+   /* 全部a的样式清除 */
+   a{
+    text-decoration: none;
+   }
+   /* 添加导航栏下 a 标签字体样式 */
+   .nav>ul>li>a{
+      color: #F7F5F9;
+      font-weight: 800;
+      font-size:18px ;
+
+   }
+   /* 导航栏下ul右浮动 */
+   .nav>ul{
+      float: right;
+      margin-right: 220px;
+   }
+
+   /* 去除 nav 下 li的样式 */
+   .nav>ul>li{
+      width: 90px;
+      padding: 0 1px;
+      height: 20px;
+      margin-top: 20px;
+      list-style: none;
+      float: left;
+   }
+   /* 导航条小的图片 */
+   .header>img{
+      float: left;
+      margin-left: 105px;
+   }
+   /* meik */
+   .top2{
+    width: 70%;
+    height: 1400px;
+    margin: 0 auto;
+    margin-top: 30px;
+   }
+   .top2>.p24{
+    width: 100%;
+    height: 55px;
+    line-height: 55px;
+    color: #9999;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(185, 182, 182);
+   }
+   .top2>.p24>span{
+    color: #666;
+   }
+   .top2>.p24>span:hover{
+    color: #3389D7;
+   }
+   .wen>h1{
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+   }
+   .wen>.lai{
+    text-align: center;
+    color: rgb(135, 133, 133);
+   }
+   .wen>.img{
+    text-align: center;
+   }
+   .wen>p{
+    line-height: 30px;
+    color: rgb(95, 92, 92);
+    text-indent: 2em;
+    margin-bottom: 30px;
+   }
+   span{
+    margin-left:220px;
+   color: #FFFFFF;
+}
+
+.font{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+  margin-top: 260px;
+  color:white;
+  padding: 30px 190px;
+  box-sizing: border-box;
+}
+.font>.fonttop{
+    width: 100%;
+    height: 150px;
+   
+    margin-bottom: 30px;
+    border-bottom: 1px solid  #A5A5A5;
+   padding-bottom: 30px;
+}
+.fonttop>.fonttop1{
+    width: 40%;
+    height: 140px;
+    
+    border-right: 1px solid  rgb(82,80,80);
+    float: left;
+}
+
+.fonttop>.fonttop3{
+    width: 59%;
+    height: 140px;
+    float: left;
+   
+}
+.fonttop>.fonttop1>.fonttop1-1{
+    width: 50%;
+    height: 100%;
+}
+.fonttop>.fonttop1>.fonttop1-1>h1{
+    font-weight: 400;
+    
+}
+.fonttop>.fonttop1>.fonttop1-1>p{
+   font-size: 13px;
+   line-height: 25px;
+}
+
+.fonttop1>.fonttop1>.fonttop1-{
+    width: 50%;
+}
+
+.fonttop>.fonttop3>h3{
+    color: #3389D7;
+    font-size: 16px;
+   
+}
+.fonttop>.fonttop3{
+    width: 33.33%;
+    height: 140px;
+    padding:10px 15px;
+    box-sizing: border-box;
+    float: left;
+}
+.fonttop>.fonttop3>ul>li{
+    list-style: none;
+    line-height: 40px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    position: relative;
+    background: url(./../img/箭头.png)no-repeat 6px 15px;
+}
+.fonttop>.fonttop3>ul>li>img{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.fonttop>.fonttop3>ul>li:nth-of-type(1){
+    padding-left: 39px;
+    box-sizing: border-box;
+}
+.fonttop>.fonttop3>ul>li:nth-of-type(2)>img{
+    height: 20px;
+}
